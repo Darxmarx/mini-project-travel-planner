@@ -4,6 +4,7 @@ const sequelize = require('../config/connection');
 
 class Location extends Model {}
 
+// initialize location model
 Location.init(
     {
         id: {
